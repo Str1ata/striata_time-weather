@@ -2,17 +2,17 @@ table.insert(Config.scriptsConfig, {
 
     TWConfig = {
 
-        --################################################--
-        --##################### TIME #####################--
-        --################################################--
+        --################################################
+        --##################### TIME #####################
+        --################################################
         timeSystem = false, -- Deixe como (true) para ativar o sistema de horario real e (false) para desativar!
 
         manualTimeSystem = true, -- Deixe como (true) para ativar o sistema de horario manual e (false) para desativar!
         timeCount = 24, -- Defina o tempo que você deseja o seu ciclo do dia em horas!
 
-        --################################################--
-        --##################### WEATHER ##################--
-        --################################################--
+        --################################################
+        --##################### WEATHER ##################
+        --################################################
         adminPermissions = {"owner.permissao","admin.permissao"},  -- Defina as permissoes para mudar o clima por comando!
         turnOffVehiclesLightsInBlackout = false,  -- Defina como (true) para apagar as luzes dos veículos quando o apagão estiver ativo e (false) para manter acesa.
 
