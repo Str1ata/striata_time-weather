@@ -5,10 +5,11 @@ table.insert(Config.scriptsConfig, {
         --################################################--
         --##################### TIME #####################--
         --################################################--
-        timeSystem = true, -- Deixe como (true) para ativar o sistema de horario real e (false) para desativar!
+        timeSystem = false,  -- Deixe como (true) para ativar o sistema de horario real e (false) para desativar!
 
-        manualTimeSystem = false, -- Deixe como (true) para ativar o sistema de horario manual e (false) para desativar!
-        timeCount = 24, -- Defina o tempo que você deseja o seu ciclo do dia em horas!
+        manualTimeSystem = true,  -- Deixe como (true) para ativar o sistema de horario manual e (false) para desativar!
+        timeCount = 24,  -- Defina o tempo que você deseja o seu ciclo do dia em horas!
+        startTime = 13,  -- Difina o horario que iniciara junto ao script!
 
         --################################################--
         --##################### WEATHER ##################--
@@ -16,17 +17,17 @@ table.insert(Config.scriptsConfig, {
         adminPermissions = {"owner.permissao","admin.permissao"},  -- Defina as permissoes para mudar o clima por comando!
         turnOffVehiclesLightsInBlackout = false,  -- Defina como (true) para apagar as luzes dos veículos quando o apagão estiver ativo e (false) para manter acesa.
 
-        weatherSystem = true, -- Deixe como (true) para ativar o sistema de climas e (false) para desativar!
-        randomizeTime = 7200000, -- tempo para mudança de clima aleatório em milissegundos (7200000 = 2 Horas)
+        weatherSystem = true,  -- Deixe como (true) para ativar o sistema de climas e (false) para desativar!
+        randomizeTime = 7200000,  -- tempo para mudança de clima aleatório em milissegundos (7200000 = 2 Horas)
 
         webhookNews = "", -- Webhook para notificar das atualizações de climas.
-        newsName = "[WEAZEL NEWS]", -- Nome do jornal que aparecera tanto in game quanto no webhook.
+        newsName = "[WEAZEL NEWS]",  -- Nome do jornal que aparecera tanto in game quanto no webhook.
         eventChatMessage = 'chatMessage',  -- Evento para enviar mensagens no chat.
-        newsNameColor = {255,0,0}, -- Cor do nome do jornal.
+        newsNameColor = {255,0,0},  -- Cor do nome do jornal.
 
-        snowEnabled = true, -- Deixe como (true) para ativar neve automática e (false) para desativar.
-        snowMonth = 12, -- Defina o mês que você deseja neve.
-        snowDays = { 6, 9, 12, 15, 18, 21, 22, 23, 24, 25, 26, 27 }, -- Defina os dias do mês que irá nevar.
+        snowEnabled = true,  -- Deixe como (true) para ativar neve automática e (false) para desativar.
+        snowMonth = 12,  -- Defina o mês que você deseja neve.
+        snowDays = { 6, 9, 12, 15, 18, 21, 22, 23, 24, 25, 26, 27 },  -- Defina os dias do mês que irá nevar.
 
         -- Defina a chance dos climas abaixo!
         POUCASNUVENS = 5,
