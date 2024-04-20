@@ -1,0 +1,117 @@
+{
+    "scriptConfig": {
+        "timeSystem": true,
+        "manualTimeSystem": false,
+        "timeCount": 24,
+        "startTime": 13,
+        "adminPermissions": [
+            "owner.permissao",
+            "admin.permissao"
+        ],
+        "turnOffVehiclesLightsInBlackout": false,
+        "weatherSystem": true,
+        "randomizeTime": 7200000,
+        "webhookNews": "",
+        "newsName": "[WEAZEL NEWS]",
+        "eventChatMessage": "chatMessage",
+        "newsNameColor": [255,0,0],
+        "snowEnabled": true,
+        "snowMonth": 12,
+        "snowDays": [6,9,12,15,18,21,22,23,24,25,26,27],
+        "weaterChances": {
+            "clear": 5,
+            "extrasunny": 5,
+            "clouds": 5,
+            "overcast": 2,
+            "rain": 1,
+            "clearing": 1,
+            "thunder": 0,
+            "smog": 2,
+            "foggy": 2
+        }
+    },
+    "languagePTBR": {
+        "commands": {
+            "changeWeather": "mudarclima",
+            "changeTime": "mudarhorario",
+            "blackout": "apagao"
+        },
+        "prompt": {
+            "zone": "Escolha a região que deseja alterar o clima. Regiões disponíveis:",
+            "newWeather": "Escolha qual clima você quer colocar na região. Climas disponíveis:",
+            "changeHours": "digite aqui as horas que você deseja",
+            "changeMinutes": "digite aqui os minutos que você deseja"
+        },
+        "console": {
+            "timeError": "Erro há 2 sistemas diferentes de tempo ativos!"
+        },
+        "notifys": {
+            "noPermission": "Você não tem permissão.",
+            "regionNotFound": "Região não encontrada.",
+            "weatherNotFound": "Clima não encontrado.",
+            "notAllowed": "Você não pode mudar o horario no sistema de horario real."
+        },
+        "mensage": {
+            "weatherForecast": "Previsao do tempo para região",
+            "weatherForecast2": "é de",
+            "weatherForecastSnow": "Previsao do tempo para todas as regiões é de NEVE.",
+            "clear": "POUCAS NUVENS",
+            "extrasunny": "CÉU LIMPO",
+            "clouds": "MUITAS NUVENS",
+            "overcast": "NUBLADO",
+            "rain": "CHUVA",
+            "clearing": "CHUVA LEVE",
+            "thunder": "TEMPESTADE FORTE",
+            "smog": "NEBLINA FRACA",
+            "foggy": "NEBLINA FORTE",
+            "neutral": "SOL E CHUVA",
+            "snow": "FLOCOS DE NEVE E VENTOS FRACOS",
+            "blizzard": "FLOCOS DE NEVE E VENTOS FORTES",
+            "snowlight": "FLOCOS DE NEVE",
+            "xmax": "NEVE",
+            "halloween": "HALLOWEEN"
+        }
+    },
+    "languageENUS": {
+        "commands": {
+            "changeWeather": "changeweather",
+            "changeTime": "changetime",
+            "blackout": "blackout"
+        },
+        "prompt": {
+            "zone": "Choose the region you want to change the weather. Available regions:",
+            "newWeather": "Choose which weather you want to put in the region. Available weathers:",
+            "changeHours": "type here the hours you want",
+            "changeMinutes": "type here the minutes you want"
+        },
+        "console": {
+            "timeError": "Error there are 2 different time systems active!"
+        },
+        "notifys": {
+            "noPermission": "You do not have permission.",
+            "regionNotFound": "Region not found.",
+            "weatherNotFound": "Region not found.",
+            "notAllowed": "You cannot change the time in the real time system."
+        },
+        "mensage": {
+            "weatherForecast": "Weather forecast for region",
+            "weatherForecast2": "it's from",
+            "weatherForecastSnow": "Weather forecast for all regions is SNOW.",
+            "clear": "CLEAR",
+            "extrasunny": "EXTRASUNNY",
+            "clouds": "CLOUDS",
+            "overcast": "OVERCAST",
+            "rain": "RAIN",
+            "clearing": "CLEARING",
+            "thunder": "THUNDER",
+            "smog": "SMOG",
+            "foggy": "FOGGY",
+            "neutral": "SUN AND RAIN",
+            "snow": "SNOWFLAKES AND LIGHT WINDS",
+            "blizzard": "SNOWFLAKES AND STRONG WINDS",
+            "snowlight": "SNOWFLAKES",
+            "xmax": "SNOW",
+            "halloween": "HALLOWEEN"
+        }
+    }
+}
