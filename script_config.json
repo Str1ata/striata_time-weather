@@ -28,7 +28,11 @@
             "thunder": 0,
             "smog": 2,
             "foggy": 2
-        }
+        },
+        "fixedClimateInLosSantos": "",
+        "fixedClimateInSandShores": "",
+        "fixedClimateInPaleto": "",
+        "fixedClimateInCayoperico": "HALLOWEEN"
     },
     "languagePTBR": {
         "commands": {
