@@ -1,7 +1,6 @@
 {
     "scriptConfig": {
         "timeSystem": true,
-        "manualTimeSystem": false,
         "timeCount": 24,
         "startTime": 13,
         "adminPermissions": [
