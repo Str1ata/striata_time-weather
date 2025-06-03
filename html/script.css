@@ -1,0 +1,729 @@
+#nuiTimeWeather {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+}
+
+#nuiTimeWeather .menuContainer {
+    position: absolute;
+    width: 50.45%;
+    height: 38.15%;
+    top: 30.93%;
+    left: 24.84%;
+    border-radius: 0.896vw;
+}
+
+#nuiTimeWeather #fivem .menuContainer {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),linear-gradient(270deg, rgba(12, 20, 26, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+    border: 0.0635vw solid rgba(31, 165, 222, 0.2);
+}
+
+#nuiTimeWeather #redm .menuContainerImage {
+    position: absolute;
+    width: 50.45%;
+    height: 38.15%;
+    top: 30.93%;
+    left: 24.84%;
+    transform: scale(1.8) translate(0%, 0%);
+    background-image: url("../resources/striata_time-weather/html/docs/paper.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+}
+
+#nuiTimeWeather .menuContainer .changeTimeText {
+    position: absolute;
+    width: 14.56%;
+    height: 3.40%;
+    left: 7.53%;
+    top: 13.87%;
+
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 10%;
+    vertical-align: middle;
+}
+
+#nuiTimeWeather #fivem .menuContainer .changeTimeText {
+    font-family: "Futuru";
+    font-weight: 300;
+    font-size: 1.013vw;
+    color: white;
+}
+
+#nuiTimeWeather #redm .menuContainer .changeTimeText {
+    font-family: "Gloria Hallelujah";
+    font-weight: 400;
+    font-size: 1.013vw;
+    color: #0F0D0B;
+}
+
+#nuiTimeWeather #fivem .menuContainer .changeTimeText span {
+    font-weight: 200;
+}
+
+#nuiTimeWeather .menuContainer .currentTimeText {
+    position: absolute;
+    width: 14.56%;
+    height: 3.40%;
+    left: 62.98%;
+    top: 13.87%;
+
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+#nuiTimeWeather #fivem .menuContainer .currentTimeText {
+    font-family: "Futuru";
+    font-weight: 900;
+    font-size: 1.013vw;
+    color: white;
+}
+
+#nuiTimeWeather #redm .menuContainer .currentTimeText {
+    font-family: "Gloria Hallelujah";
+    font-weight: 400;
+    font-size: 1.013vw;
+
+    color: #0F0D0B;
+}
+
+#nuiTimeWeather .menuContainer .currentTimeContainer {
+    position: absolute;
+    width: 13.43%;
+    height: 10.62%;
+    left: 79.43%;
+    top: 10.32%;
+
+    border-width: 0.0604vw;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nuiTimeWeather #fivem .menuContainer .currentTimeContainer {
+    border-radius: 0.853vw;
+    background: #37373733;
+    border: 0.0604vw solid #646464;
+}
+
+#nuiTimeWeather #redm .menuContainer .currentTimeContainer {
+    border-radius: 0.26vw;
+    background: #70553B80;
+    border: 0.0604vw solid #FFC342;
+}
+
+#nuiTimeWeather .menuContainer .currentTimeContainer .text {
+    position: relative;
+    font-family: "Futuru";
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#nuiTimeWeather #fivem .menuContainer .currentTimeContainer .text {
+    font-weight: 300;
+    font-size: 1.013vw;
+    color: white;
+}
+
+#nuiTimeWeather #redm .menuContainer .currentTimeContainer .text {
+    font-weight: 400;
+    font-size: 1.013vw;
+    color: white;
+}
+
+#nuiTimeWeather .menuContainer .timeBar {
+    position: absolute;
+    width: 90.48%;
+    height: 11.63%;
+    left: 4.89%;
+    top: 24.49%;
+    border-radius: 1.13vw;
+}
+
+#nuiTimeWeather .menuContainer .timeBar .bar {
+    position: relative;
+    width: 100%;
+    height: 22.84%;
+    left: 0%;
+    top: 20.30%;
+    border-radius: 1.13vw;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+    cursor: pointer;
+}
+
+#nuiTimeWeather #fivem .menuContainer .timeBar .bar {
+    background: #ffffff15;
+}
+
+#nuiTimeWeather #redm .menuContainer .timeBar .bar {
+    background: #0F0D0B26;
+}
+
+#nuiTimeWeather .menuContainer .timeBar .bar .barPoint {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 0.2283%;
+    height: 211.18%;
+    border-radius: 1.1302vw;
+}
+
+#nuiTimeWeather #fivem .menuContainer .timeBar .bar .barPoint {
+    background: #ffffff30;
+}
+
+#nuiTimeWeather #redm .menuContainer .timeBar .bar .barPoint {
+    background: #0F0D0B4D;
+}
+
+#nuiTimeWeather .menuContainer .timeBar .bar .selectedPoint {
+    position: absolute;
+    width: 0.6486%;
+    height: 277.81%;
+    left: 0%;
+    border-radius: 1.1302vw;
+
+    cursor: e-resize;
+    transform: translate(-25%,0%);
+}
+
+#nuiTimeWeather #fivem .menuContainer .timeBar .bar .selectedPoint {
+    background: #287EFF;
+    box-shadow: 0vw 0vw 0.837vw 0vw #1FA5DE4D;
+}
+
+#nuiTimeWeather #redm .menuContainer .timeBar .bar .selectedPoint {
+    background: linear-gradient(180deg, #FFC342 0%, #C28708 100%);
+    box-shadow: 0vw 0vw 0.837vw 0vw #C28708B2;
+}
+
+#nuiTimeWeather .menuContainer .timeBar .hours {
+    position: relative;
+    width: 100%;
+    height: 22.84%;
+    left: 0%;
+    top: 60.92%;
+    border-radius: 1.1302vw;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+    gap: 4%;
+}
+
+#nuiTimeWeather .menuContainer .timeBar .hours .hoursTextPoints {
+    position: relative;
+    width: 0.1599%;
+    height: 211.18%;
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 5%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    left: -1.712%;
+}
+
+#nuiTimeWeather #fivem .menuContainer .timeBar .hours .hoursTextPoints {
+    font-family: "Futuru";
+    font-weight: 300;
+    font-size: 0.633vw;
+    color: white;
+}
+
+#nuiTimeWeather #redm .menuContainer .timeBar .hours .hoursTextPoints {
+    font-family: "Give You Glory";
+    font-weight: 400;
+    font-size: 0.633vw;
+    color: #0F0D0B;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer {
+    position: absolute;
+    width: 63.87%;
+    height: 43.98%;
+    left: 4.89%;
+    top: 43.97%;
+    border-radius: 0.633vw;
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer {
+    background: #ffffff12;
+}
+
+#nuiTimeWeather #redm .menuContainer .weatherContainer {
+    background: none;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts {
+    position: relative;
+    width: 100%;
+    height: 31.54%;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .changeWeatherText {
+    position: absolute;
+    left: 4.72%;
+    top: 46.82%;
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 10%;
+    vertical-align: middle;
+    font-size: 0.76vw;
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer .weatherTexts .changeWeatherText {
+    font-family: "Futuru";
+    font-weight: 900;
+    color: white;
+}
+
+#nuiTimeWeather #redm .menuContainer .weatherContainer .weatherTexts .changeWeatherText {
+    font-family: "Gloria Hallelujah";
+    font-weight: 400;
+
+    color: #0F0D0B;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .regionSelection {
+    position: absolute;
+    width: 25%;
+    height: 30%;
+    flex-shrink: 0;
+    left: 40%;
+    top: 50%;
+    transform: translate(-40%,-30%);
+
+    z-index: 1;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .regionSelection .selectedOption {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	flex-shrink: 0;
+
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+	color: white;
+	leading-trim: both;
+	text-edge: cap;
+	text-shadow: 0vw 0vw 0.803vw rgba(255, 255, 255, 0.60);
+    font-size: 0.76vw;
+	font-style: normal;
+	line-height: normal;
+
+    cursor: pointer;
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer .weatherTexts .regionSelection .selectedOption {
+	border-radius: 0.9635vw;
+	border: 0.0402vw solid white;
+	background: linear-gradient(270deg, rgba(12, 20, 26, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);
+
+	font-family: "Futuru";
+	font-weight: 200;
+}
+
+#nuiTimeWeather #redm .menuContainer .weatherContainer .weatherTexts .regionSelection .selectedOption {
+	font-family: "Gloria Hallelujah";
+	font-weight: 400;
+
+	background: #4B382680;
+	border-radius: 0.0615vw;
+	border: 0.0402vw solid #FFC342;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .regionSelection .selectedOption .selectedOptionText {
+	position: relative;
+	margin: 0 auto;
+
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+    left: 25%;
+    top: 0%;
+    transform: translate(-25%,0);
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .regionSelection .selectedOption .selectedOptionIconBox {
+	margin-left: auto;
+
+	position: relative;
+	width: 18.818819%;
+	height: 100%;
+
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer .weatherTexts .regionSelection .selectedOption .selectedOptionIconBox.isOpen {
+	border-radius: 0.9635vw;
+	background: linear-gradient(270deg, #1FA5DE 0%, #2C67BF 100%);
+}
+
+#nuiTimeWeather #redm .menuContainer .weatherContainer .weatherTexts .regionSelection .selectedOption .selectedOptionIconBox.isOpen {
+	border-radius: 0.1042vw;
+	background: linear-gradient(270deg, #9F6338 0%, #7C4721 100%);
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .regionSelection .selectedOption .selectedOptionIconBox #selectedOptionIcon {
+	position: relative;
+    width: 100%;
+	height: 100%;
+    left: 0%;
+    top: 0%;
+    transform: translate(30%,30%);
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer .weatherTexts .regionSelection .selectedOption .selectedOptionIconBox #selectedOptionIcon {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7' fill='none'%3E%3Cpath d='M8.50765 0L1.49235 0C1.21539 -0.000376701 0.943985 0.0731506 0.70954 0.212073C0.475096 0.350996 0.287202 0.549632 0.167607 0.784991C0.0276073 1.06425 -0.0263148 1.37494 0.0119851 1.68166C0.0502851 1.98838 0.179267 2.2788 0.384232 2.51982L3.89188 6.52327C4.02954 6.67291 4.19972 6.79293 4.39091 6.87518C4.5821 6.95743 4.78982 7 5 7C5.21018 7 5.4179 6.95743 5.60909 6.87518C5.80028 6.79293 5.97046 6.67291 6.10812 6.52327L9.61577 2.51982C9.82073 2.2788 9.94972 1.98838 9.98802 1.68166C10.0263 1.37494 9.97239 1.06425 9.83239 0.784991C9.7128 0.549632 9.5249 0.350996 9.29046 0.212073C9.05602 0.0731506 8.78461 -0.000376701 8.50765 0Z' fill='%23ADD1FF'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+}
+
+#nuiTimeWeather #redm .menuContainer .weatherContainer .weatherTexts .regionSelection .selectedOption .selectedOptionIconBox #selectedOptionIcon {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='7' viewBox='0 0 11 7' fill='none'%3E%3Cpath d='M0.482275 1.1078C0.671065 1.1078 0.918853 1.18272 1.22564 1.33257C1.53242 1.48242 1.8569 1.67508 2.19909 1.91055C2.55307 2.14602 2.91295 2.39755 3.27873 2.66514C3.65632 2.94342 4.0103 3.21101 4.34068 3.46789C4.68286 3.72477 4.97785 3.94954 5.22564 4.1422C5.48522 4.33486 5.67401 4.47401 5.79201 4.55963C5.81561 4.55963 5.84511 4.56498 5.8805 4.57569C5.9277 4.58639 5.9631 4.59174 5.9867 4.59174C5.9867 4.59174 6.0162 4.58639 6.07519 4.57569C6.09879 4.56498 6.12829 4.55963 6.16369 4.55963C6.21089 4.53823 6.28168 4.48471 6.37608 4.39908C6.47047 4.31346 6.52947 4.24924 6.55307 4.20642C6.60027 4.1422 6.68876 4.01376 6.81856 3.8211C6.94835 3.62844 7.10764 3.40367 7.29643 3.14679C7.48522 2.88991 7.67991 2.61162 7.8805 2.31193C8.08109 2.02294 8.26989 1.75 8.44688 1.49312C8.63567 1.23624 8.79496 1.01147 8.92475 0.818807C9.06635 0.626147 9.15484 0.492355 9.19024 0.417431C9.30823 0.256881 9.43213 0.144495 9.56192 0.0802752C9.69171 0.0267584 9.86281 -9.28384e-09 10.0752 0C10.0752 0.288991 10.0221 0.663609 9.9159 1.12385C9.82151 1.5948 9.68581 2.08716 9.50882 2.60092C9.34363 3.11468 9.14304 3.63379 8.90705 4.15826C8.67106 4.68272 8.41148 5.15367 8.12829 5.5711C7.85691 5.98853 7.56782 6.33104 7.26104 6.59862C6.95425 6.86621 6.65337 7 6.35838 7C6.33478 7 6.29938 6.99465 6.25219 6.98395C6.21679 6.97324 6.18729 6.96789 6.16369 6.96789C6.0339 6.87156 5.83921 6.72706 5.57962 6.5344C5.33183 6.34174 5.04275 6.12232 4.71236 5.87615C4.38198 5.62997 4.0339 5.36774 3.66812 5.08945C3.31413 4.82187 2.97785 4.55963 2.65927 4.30275C2.34068 4.05657 2.0516 3.8318 1.79201 3.62844C1.53242 3.42508 1.34363 3.27523 1.22564 3.1789C1.02505 3.01835 0.853956 2.88991 0.712363 2.79358C0.57077 2.69725 0.452776 2.60627 0.35838 2.52064C0.263986 2.44572 0.193189 2.35474 0.145991 2.24771C0.0987939 2.15138 0.0751952 2.01223 0.0751952 1.83027C0.0751952 1.78746 0.0751952 1.72324 0.0751952 1.63761C0.0869951 1.56269 0.104693 1.48242 0.128292 1.39679C0.151892 1.32186 0.187289 1.25229 0.234487 1.18807C0.293484 1.13456 0.37608 1.1078 0.482275 1.1078Z' fill='white'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .regionSelection .selectedOption .selectedOptionIconBox.isOpen #selectedOptionIcon {
+	transform: rotate(180deg) translate(30%,30%);
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .regionSelection .selectTable {
+    position: relative;
+	width: 100%;
+	max-height: 567.567568%;
+	flex-shrink: 0;
+    
+    color: white;
+	leading-trim: both;
+	text-edge: cap;
+	text-shadow: 0vw 0vw 0.803vw rgba(255, 255, 255, 0.60);
+    font-size: 0.76vw;
+	font-style: normal;
+	line-height: normal;
+
+	cursor: pointer;
+
+	display: flex;
+	flex-direction: column;
+	gap: 0.5vw;
+
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer .weatherTexts .regionSelection .selectTable {
+	font-family: "Futuru";
+	font-weight: 200;
+
+	border-radius: 0.9635vw;
+    background: linear-gradient(270deg, rgba(12, 20, 26, 0.80) 0%, rgba(0, 0, 0, 0.80) 100%), rgba(34, 36, 38, 0.80);
+}
+
+#nuiTimeWeather #redm .menuContainer .weatherContainer .weatherTexts .regionSelection .selectTable {
+	font-family: "Gloria Hallelujah";
+	font-weight: 400;
+	
+	border-radius: 0.9635vw;
+    background: linear-gradient(0deg, rgba(75, 56, 38, 0.80) 0%, rgba(75, 56, 38, 0.80) 100%), rgba(31, 27, 24, 0.80);
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .regionSelection .selectTable::-webkit-scrollbar {
+	width: 0.4167vw;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .regionSelection .selectTable::-webkit-scrollbar-thumb {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 0.2604vw;
+	border: 0.1042vw solid transparent;
+	background-clip: content-box;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .regionSelection .selectTable::-webkit-scrollbar-button:single-button {
+	background-color: rgba(255, 255, 255, 0);
+	display: block;
+	border-style: solid;
+    width: 4.004004%;
+	height: 4.761905%;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .regionSelection .selectTable::-webkit-scrollbar-button:single-button:vertical:decrement {
+	border-width: 0 0.2604vw 0.2604vw 0.2604vw;
+	border-color: transparent transparent rgba(255, 255, 255, 0) transparent;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .regionSelection .selectTable::-webkit-scrollbar-button:single-button:vertical:increment {
+	border-width: 2604vw 2604vw 0 2604vw;
+	border-color: rgba(255, 255, 255, 0) transparent transparent transparent;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .regionSelection .selectTable #regionOption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer .weatherTexts .regionSelection .selectTable #regionOption:hover {
+	background: linear-gradient(270deg, rgba(12, 20, 26, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+}
+
+#nuiTimeWeather #redm .menuContainer .weatherContainer .weatherTexts .regionSelection .selectTable #regionOption:hover {
+	background: rgba(26, 20, 14, 0.30);
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer .weatherTexts .changeWeatherText span {
+    font-weight: 300;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherTexts .currentWeatherText {
+    position: absolute;
+    left: 64.64%;
+    top: 46.82%;
+
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer .weatherTexts .currentWeatherText {
+    font-family: "Futuru";
+    font-weight: 700;
+    font-size: 0.76vw;
+    color: white;
+}
+
+#nuiTimeWeather #redm .menuContainer .weatherContainer .weatherTexts .currentWeatherText {
+    font-family: "Gloria Hallelujah";
+    font-weight: 400;
+    font-size: 0.76vw;
+
+    color: #0F0D0B;
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer .weatherTexts .currentWeatherText span {
+    font-weight: 300
+}
+
+#nuiTimeWeather #redm .menuContainer .weatherContainer .weatherTexts .currentWeatherText span {
+    font-family: "Give You Glory";
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherOptionsBox {
+    position: relative;
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: visible;
+
+    gap: 7.85% 1.62%;
+    padding: 0 4.52%;
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer .weatherOptionsBox {
+    height: 11.55vh;
+}
+
+#nuiTimeWeather #redm .menuContainer .weatherContainer .weatherOptionsBox {
+    height: 18.89vh;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherOptionsBox .weatherOptions {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 3.77%;
+
+    leading-trim: Cap height;
+    line-height: 1.013vh;
+    letter-spacing: 5%;
+    text-align: start;
+    vertical-align: middle;
+    
+    cursor: pointer;
+    user-select: none;
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer .weatherOptionsBox .weatherOptions {
+    font-family: "Futuru";
+    font-weight: 200;
+    font-size: 0.633vw;
+    color: white
+}
+
+#nuiTimeWeather #redm .menuContainer .weatherContainer .weatherOptionsBox .weatherOptions {
+    font-family: "Gloria Hallelujah";
+    font-weight: 400;
+    font-size: 0.521vw;
+    color: #0F0D0B;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherOptionsBox .weatherOptions .weatherOptions-checkbox {
+    display: none;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherOptionsBox .weatherOptions .custom-checkbox {
+    position: relative;
+    width: 1.216vw;
+    height: 2.162vh;
+    border-radius: 0.313vw;
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer .weatherOptionsBox .weatherOptions .custom-checkbox {
+    background: #37373733;
+    border: 0.022vw solid #646464;
+}
+
+#nuiTimeWeather #redm .menuContainer .weatherContainer .weatherOptionsBox .weatherOptions .custom-checkbox {
+    background: #70553B80;
+    border: 0.022vw solid #FFC342;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherOptionsBox .weatherOptions .weatherOptions-checkbox:checked + .custom-checkbox::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+}
+
+#nuiTimeWeather #fivem .menuContainer .weatherContainer .weatherOptionsBox .weatherOptions .weatherOptions-checkbox:checked + .custom-checkbox::after {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='66' height='61' viewBox='0 0 66 61' fill='none'><g filter='url(%23filter0_d_256_686)'><path d='M41.7585 20L28.5106 32.8185L24.214 28.6612L20 32.7386L24.2966 36.8959L28.5381 41L32.7521 36.9226L46 24.1041L41.7585 20Z' fill='%231FA5DE'/></g><defs><filter id='filter0_d_256_686' x='0' y='0' width='66' height='61' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/><feOffset/><feGaussianBlur stdDeviation='10'/><feComposite in2='hardAlpha' operator='out'/><feColorMatrix type='matrix' values='0 0 0 0 0.121569 0 0 0 0 0.647059 0 0 0 0 0.870588 0 0 0 0.8 0'/><feBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_256_686'/><feBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_256_686' result='shape'/></filter></defs></svg>") no-repeat center / contain;
+}
+
+#nuiTimeWeather #redm .menuContainer .weatherContainer .weatherOptionsBox .weatherOptions .weatherOptions-checkbox:checked + .custom-checkbox::after {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='66' height='61' viewBox='0 0 66 61' fill='none'><g filter='url(%23filter0_d_641_631)'><path d='M41.7585 20L28.5106 32.8185L24.214 28.6612L20 32.7386L24.2966 36.8959L28.5381 41L32.7521 36.9226L46 24.1041L41.7585 20Z' fill='url(%23paint0_linear_641_631)'/></g><defs><filter id='filter0_d_641_631' x='0' y='0' width='66' height='61' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/><feOffset/><feGaussianBlur stdDeviation='10'/><feComposite in2='hardAlpha' operator='out'/><feColorMatrix type='matrix' values='0 0 0 0 1 0 0 0 0 0.678431 0 0 0 0 0.356863 0 0 0 0.8 0'/><feBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_641_631'/><feBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_641_631' result='shape'/></filter><linearGradient id='paint0_linear_641_631' x1='33' y1='20' x2='33' y2='41' gradientUnits='userSpaceOnUse'><stop stop-color='%23FFAD5B'/><stop offset='1' stop-color='%23B55400'/></linearGradient></defs></svg>") no-repeat center / contain;
+}
+
+#nuiTimeWeather .menuContainer .weatherContainer .weatherOptionsBox .weatherOptions .custom-checkboxText {
+    position: absolute;
+    width: 3.906vw;
+    height: 1.759vh;
+    left: 1.563vw;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    text-overflow: ellipsis;
+}
+
+#nuiTimeWeather .menuContainer .setTime {
+    position: absolute;
+    width: 23.59%;
+    height: 12.09%;
+    left: 71.79%;
+    top: 49.26%;
+
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-align: center;
+    vertical-align: middle;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+#nuiTimeWeather #fivem .menuContainer .setTime {
+    border-radius: 1.54vw;
+    border: 0.0635vw solid #FFFFFF;
+    font-family: "Futuru";
+    font-weight: 300;
+    font-size: 0.823vw;
+    color: white;
+}
+
+#nuiTimeWeather #redm .menuContainer .setTime {
+    background: linear-gradient(90deg, #7C4721 0%, #9F6338 77.5%, #B76226 100%);
+
+    font-family: "Gloria Hallelujah";
+    font-weight: 400;
+    font-size: 0.791vw;
+    color: white
+}
+
+#nuiTimeWeather .menuContainer .setWeather {
+    position: absolute;
+    width: 23.59%;
+    height: 12.09%;
+    left: 71.79%;
+    top: 70.51%;
+
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+#nuiTimeWeather #fivem .menuContainer .setWeather {
+    border-radius: 1.54vw;
+    border: 0.0635vw solid #FFFFFF;
+
+    font-family: "Futuru";
+    font-weight: 300;
+    font-size: 0.823vw;
+}
+
+#nuiTimeWeather #redm .menuContainer .setWeather {
+    background: linear-gradient(90deg, #B76226 0%, #9F6338 22.5%, #7C4721 100%);
+
+    font-family: "Gloria Hallelujah";
+    font-weight: 400;
+    font-size: 0.791vw;
+}
+
+#nuiTimeWeather #fivem .menuContainer .setTime:hover,
+#nuiTimeWeather #fivem .menuContainer .setWeather:hover {
+    background: white;
+    color: black;
+}
+
+#nuiTimeWeather #redm .menuContainer .setTime:hover,
+#nuiTimeWeather #redm .menuContainer .setWeather:hover {
+    background: linear-gradient(270deg, #B1A195 0%, #716157 100%);
+    color: black;
+}

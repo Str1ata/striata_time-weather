@@ -63,8 +63,8 @@
         },
         "blackListZonesWeather": {
             "Paleto": ["xmas","snow","snowlight","blizzard","halloween"],
-            "Sand Shoes": ["xmas","snow","snowlight","blizzard","halloween"],
-            "Los santos": ["xmas","snow","snowlight","blizzard","halloween"],
+            "Sand Shores": ["xmas","snow","snowlight","blizzard","halloween"],
+            "Los Santos": ["xmas","snow","snowlight","blizzard","halloween"],
             "Cayo Perico": ["xmas","snow","snowlight","blizzard","halloween"],
             "Bayou Nwa": ["xmas","sleet","snow","snowlight","blizzard","groundblizzard","whiteout","snowclearing","sandstorm"],
             "Big Valley": ["xmas","sleet","snow","snowlight","blizzard","groundblizzard","whiteout","snowclearing","sandstorm"],
@@ -88,7 +88,7 @@
         },
         "fixedZoneWeather": {
             "Paleto": "",
-            "Sand Shoes": "",
+            "Sand Shores": "",
             "Los santos": "",
             "Cayo Perico": "HALLOWEEN",
 
@@ -168,6 +168,14 @@
             "thunderstorm": "Tempestade de raios",
             "whiteout": "Ofuscamento (por neve)",
             "snowclearing": "Limpeza de neve"
+        },
+        "nui": {
+            "changeTime": "Alterar <span>horário<span>",
+            "currentTime": "Horario atual",
+            "changeWeather": "Alterar <span>clima<span>",
+            "currentWeather": "Clima atual",
+            "setTime": "Mudar horário",
+            "setWeather": "Mudar Clima"
         }
     },
     "languageENUS": {
@@ -225,6 +233,14 @@
             "thunderstorm": "Thunderstorm",
             "whiteout": "Whiteout (due to snow)",
             "snowclearing": "Snow clearing"
+        },
+        "nui": {
+            "changeTime": "Change <span>time<span>",
+            "currentTime": "Current time",
+            "changeWeather": "Change <span>weather<span>",
+            "currentWeather": "Current weather",
+            "setTime": "Set time",
+            "setWeather": "Set weather"
         }
     }
 }
